@@ -1,8 +1,9 @@
 // https://www.typescriptlang.org/tsconfig
 {
   "compilerOptions": {
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2020",
     "esModuleInterop": true,
     "noEmit": true,
     "noImplicitAny": false,
